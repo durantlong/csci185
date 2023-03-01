@@ -6,10 +6,21 @@
     font-family: "lora"; 
     src: url("fonts/lora/Lora-VariableFont_wght.ttf") format("truetype"); 
 }
+header {
+    background-color:lightcoral;
+}
+
+h1 {
+    padding: 5%;
+}
+h2 {
+    padding: 3%;
+}
+
 
 body {
     margin: 0px;
-    font-family: Arial, sans-serif;
+  
 }
 
 p, a, li {
@@ -26,6 +37,7 @@ section ul {
 section:hover ul {
 display:block
 }
+
 .nav {
     display:flex;
     justify-content: space-evenly;
@@ -34,6 +46,7 @@ display:block
 @media only screen and (max-width: 1000px) {
       
     }
+  
 
     section {
         width: calc(50% - 20px);
@@ -49,4 +62,47 @@ width: 100%;
 
     }
        
+}
+
+
+/*body  {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}*/
+
+main {
+    display: flex;
+}
+main {
+    margin: 10px;
+    border: solid 1px lavender;
+    padding-bottom: 20px;
+}
+section h4, section p, section button {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+section p {
+    line-height: 1.4em;
+}
+section img {
+    width: 100%;
+}
+
+h2, header{
+    color: rgb(108, 29, 148) ;
+    transition: all .1s;
+}
+li  {
+color: lavender; 
+}
+
+li :visited{
+    color: lavenderblush
+}
+body {
+    background-color: rgb(236, 152, 152);
 }
