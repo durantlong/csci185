@@ -11,3 +11,9 @@ body {
 }
 
 /* Your CSS Code Here! */
+a {
+    text-decoration: none;
+}
+header {
+    background-color: teal;
+}
